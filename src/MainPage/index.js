@@ -91,7 +91,7 @@ class Profolio extends Component{
                                     <img src={Leetcode} alt='Github' className='leetcode logo-img'/>
                                 </a>
                                 </div>
-                                <h1 className='skill-heading'>contact</h1>
+                                <h1 className='skill-heading'>Contact</h1>
                                 <hr/>
                                 <a href="mailto:vaibhav.kulkarni0359@gmail.com">Vaibhav.kulkarni0359@gmail.com</a>
                                 <div>

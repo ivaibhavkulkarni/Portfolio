@@ -43,7 +43,7 @@ body {
 
 
 .skills-container{
-  align-self: flex-start;
+  align-self: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
   padding-top: 2px;
@@ -51,6 +51,8 @@ body {
   border-radius: 8px;
   width: 350px;
   padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
 
@@ -93,6 +95,9 @@ body {
   padding-left: 10px;
   border-radius: 8px;
   padding-right: 10px;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
 
@@ -132,6 +137,9 @@ a:hover {
   padding-left: 10px;
   border-radius: 8px;
   padding-right: 10px;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .leetcode{
@@ -179,8 +187,7 @@ a:hover {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 20px;
-    margin: 10px;
-
+    margin: 20px;
   }
   
   .skill-projects {
