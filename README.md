@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Portfolio Website - Vaibhav Kulkarni
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio website! This React-based project showcases my skills, projects, and contact information in a clean, responsive design.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This portfolio website serves as a platform to present my skills and projects, as well as provide easy access to my coding profiles on GitHub and LeetCode. The design is simple, yet modern, and fully responsive across devices.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Skills and Projects](#skills-and-projects)
+- [Contact Information](#contact-information)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Personal Information**: Displays a profile picture, name, and job title.
+- **Skills Section**: Icons representing various technical skills.
+- **Projects Section**: List of completed projects with clickable links to GitHub repositories.
+- **Coding Profiles**: Links to GitHub and LeetCode profiles.
+- **Contact Information**: Provides email and social media links.
+- **Responsive Design**: Optimized for both mobile and desktop devices using media queries.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React.js**: Frontend framework for building the UI.
+- **HTML5, CSS3**: Markup and styling.
+- **JavaScript**: For dynamic interactions.
+- **Node.js**: Backend if extended for future functionality.
+- **Images**: Various logos and icons for skills and projects.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+Project
+│
+├── public/
+│   └── assets/
+│       └── (All images and logos used in the project)
+│
+├── src/
+│   ├── Components/
+│   │   └── Profolio.js  # Main Portfolio component
+│   ├── App.js           # Entry point for React
+│   └── index.css        # Styles for the project
+│
+├── README.md            # Project Documentation
+├── package.json         # Node package manager config file
+└── node_modules/        # Installed dependencies
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/ivaibhavkulkarni/portfolio-website.git
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
+    ```bash
+    cd portfolio-website
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Run the project:
+    ```bash
+    npm start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open your browser and visit:
+    ```
+    http://localhost:3000
+    ```
 
-## Learn More
+## Skills and Projects
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The **Skills** section showcases icons of technologies I am proficient in:
+- **Frontend**: HTML5, CSS3, JavaScript, React
+- **Backend**: Node.js, Express.js, MongoDB
+- **Other**: Python, SQL, Git, Vercel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The **Projects** section lists some of the personal projects I have worked on. Each project includes a clickable link to its GitHub repository. Some notable projects include:
+- [To-do Application Using JavaScript](https://github.com/ivaibhavkulkarni/JavaScript-Projects/tree/main/Project-13%20Todo%20Application)
+- [Wikipedia Web App](https://github.com/ivaibhavkulkarni/JavaScript-Projects/tree/main/Project-19%20Wikipedia%20Search%20App)
+- [Counter Application Using React](https://github.com/ivaibhavkulkarni/Projects-Node-JS/tree/main/Projects/Project-1%20Counter%20App/counter-app)
 
-### Code Splitting
+## Contact Information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to connect with me through the following channels:
 
-### Analyzing the Bundle Size
+- **Email**: [vaibhav.kulkarni0359@gmail.com](mailto:vaibhav.kulkarni0359@gmail.com)
+- **LinkedIn**: [Vaibhav Kulkarni](https://www.linkedin.com/in/vaibhav-kulkarni-7230051ab/)
+- **Twitter (X)**: [@ivaibhavkulkarn](https://x.com/ivaibhavkulkarn)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can modify this `README.md` based on your preferences or add more details as necessary.
