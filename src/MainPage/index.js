@@ -18,6 +18,7 @@ import './index.css'
 
 
 const projects = [
+    {name: 'Employee Portal (MERN Stack)', link: 'https://github.com/ivaibhavkulkarni/Employee-Portal' },
     { name: 'To-do Application Using JavaScript', link: 'https://github.com/ivaibhavkulkarni/JavaScript-Projects/tree/main/Project-13%20Todo%20Application' },
     { name: 'Wikipedia Web App', link: 'https://github.com/ivaibhavkulkarni/JavaScript-Projects/tree/main/Project-19%20Wikipedia%20Search%20App' },
     { name: 'Bookmark Maker', link: 'https://github.com/ivaibhavkulkarni/JavaScript-Projects/tree/main/Project-27%20Bookmark%20Maker' },
